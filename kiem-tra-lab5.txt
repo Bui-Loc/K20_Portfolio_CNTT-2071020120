@@ -1,0 +1,7 @@
+Họ tên: Bùi Văn Lộc
+Mã SV: 2071020120
+Lớp: 20-04
+Kết quả T01–T08: kỳ vọng | thực tế | đạt/chưa đạt | minh chứng
+Một lỗi: bước tái hiện | nguyên nhân | sửa | kiểm tra lại
+Áp dụng Portfolio: selector mẫu | lý do:có sẵn khung,thao tác dễ dàng hơn,điền kết quả dễ hơn vì có chỗ bỏ trống và đánh số tương ứng
+Sử dụng AI nếu có: phần dùng kiếm chứng lại lựa chọn đang băn khoăn | cách tự kiểm chứng:kiến thức đã học trên lab
