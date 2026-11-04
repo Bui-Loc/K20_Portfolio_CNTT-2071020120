@@ -16,10 +16,22 @@
         </nav>
     </header>
     <main>
-        <section class="hero" id="gioi-thieu"><span>LAB 5 · HTML5 + CSS3</span>
-            <h1>Xin chào, tôi là Lộc</h1>
-            <p>Sinh viên CNTT đang xây dựng Portfolio có thể dùng bằng chuột và bàn phím.</p>
-            <a class="button" href="#lien-he">Liên hệ với tôi</a>
+        <section class="hero" id="gioi-thieu">
+            <div class="hero-copy">
+                <span>LAB 5 · HTML5 + CSS3</span>
+                <h1>Xin chào,<br>tôi là <span class="hero-name">Lộc</span></h1>
+                <p>Sinh viên CNTT đang xây dựng Portfolio có thể dùng bằng chuột và bàn phím.</p>
+                <a class="button" href="#lien-he">Liên hệ với tôi <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="hero-art">
+                <span class="hero-orbit hero-orbit-one" aria-hidden="true"></span>
+                <span class="hero-orbit hero-orbit-two" aria-hidden="true"></span>
+                <span class="hero-initial">
+                    <img class="hero-photo" src="images/avatar.jpg" alt="Ảnh đại diện minh họa">
+                </span>
+                <span class="hero-chip hero-chip-top">HTML5</span>
+                <span class="hero-chip hero-chip-bottom">CSS3 · UI</span>
+            </div>
         </section>
         <section id="ky-nang">
             <h2>Kỹ năng</h2>
@@ -46,13 +58,13 @@
                 </article>
             </div>
         </section>
-        <section id="lo-trinh">
+        <section class="journey" id="lo-trinh">
             <h2>Lộ trình học tập</h2>
             <ol>
-                <li>Lab 2: nội dung HTML5.</li>
-                <li>Lab 3: CSS, Flexbox và Grid.</li>
-                <li>Lab 4: rem và media query.</li>
-                <li>Lab 5: tương tác và form.</li>
+                <li><span class="journey-step">01</span><span>Lab 2: nội dung HTML5.</span></li>
+                <li><span class="journey-step">02</span><span>Lab 3: CSS, Flexbox và Grid.</span></li>
+                <li><span class="journey-step">03</span><span>Lab 4: rem và media query.</span></li>
+                <li><span class="journey-step">04</span><span>Lab 5: tương tác và form.</span></li>
             </ol>
         </section>
         <section id="lien-he">
