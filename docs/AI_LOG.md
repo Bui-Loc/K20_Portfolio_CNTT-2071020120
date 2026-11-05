@@ -5,6 +5,12 @@
 Có dùng AI để kiểm tra website,gợi ý và thực hiện một số chỉnh sửa,quét lại code để điền báo cáo vào README.md và RELEASE_NOTES.md
 Còn tôi thì phản biện chọn lọc,kiểm tra lại các lỗi đã sửa
 
+## Nhật ký theo ngày
+
+| Ngày | Dùng AI làm gì (việc) | Phần em giữ | Phần em sửa |
+|---|---|---|---|
+| 05/11/2026 | Nhờ AI thêm lựa chọn đổi màu tím, xanh lá và xanh nước biển cho trang portfolio và trang kết quả. | Giữ bộ chọn ba màu và cách đổi giao diện bằng CSS. | Bỏ JavaScript, dùng HTML/CSS thuần với nhóm radio; chấp nhận màu chỉ áp dụng ở trang hiện tại và không lưu khi tải lại hoặc chuyển trang. |
+
 ## Vấn đề và cách xử lý
 
 | Vấn đề | Gợi ý | Việc đã làm |
