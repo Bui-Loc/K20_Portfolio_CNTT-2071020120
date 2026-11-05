@@ -1,16 +1,16 @@
 /* LAB 5: chi thay cac o trong co ma 1.1 den 5.6.
    Base responsive tu Lab 4 da hoan thanh. Khong xoa @media. */
 :root {
-  --bg: #f3f6fa;
-  --text: #172b3a;
-  --primary: #0f5c63;
-  --hover: #083e43;
-  --soft: #e3f2f2;
-  --focus: #b34500;
-  --line: #b6c5cf;
+  --bg: #f6f4fb;
+  --text: #29263a;
+  --primary: #6047b8;
+  --hover: #49358f;
+  --soft: #efebff;
+  --focus: #a64b2a;
+  --line: #dcd7e8;
   --surface: #fff;
-  --muted: #526575;
-  --shadow: 0 0.75rem 2rem rgb(23 43 58 / 8%);
+  --muted: #625e73;
+  --shadow: 0 0.75rem 2rem rgb(41 38 58 / 9%);
 }
 
 * {
@@ -27,7 +27,7 @@ body {
   line-height: 1.6;
   color: var(--text);
   background:
-    radial-gradient(ellipse at 10% 0%, rgb(227 242 242 / 75%), transparent 32rem),
+    radial-gradient(ellipse at 10% 0%, rgb(239 235 255 / 85%), transparent 32rem),
     var(--bg);
 }
 
@@ -63,8 +63,8 @@ header {
   top: 0;
   z-index: 2;
   background: rgb(255 255 255 / 94%);
-  border-bottom: 1px solid rgb(182 197 207 / 65%);
-  box-shadow: 0 0.25rem 1rem rgb(23 43 58 / 5%);
+  border-bottom: 1px solid rgb(220 215 232 / 75%);
+  box-shadow: 0 0.25rem 1rem rgb(41 38 58 / 5%);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -111,7 +111,7 @@ section > h2::before {
   left: 0;
   width: 0.25rem;
   border-radius: 1rem;
-  background: linear-gradient(var(--primary), #4ca9a2);
+  background: linear-gradient(var(--primary), #a58af0);
   content: "";
 }
 
@@ -122,8 +122,8 @@ section > h2::before {
   grid-template-columns: minmax(0, 1.35fr) minmax(14rem, 0.65fr);
   align-items: center;
   gap: 1rem;
-  background: linear-gradient(135deg, #e3f2f2 0%, #fff 100%);
-  border: 1px solid #c8e1e1;
+  background: linear-gradient(135deg, #efebff 0%, #fff 100%);
+  border: 1px solid #ded5f7;
   padding: clamp(1.5rem, 5vw, 3.5rem);
   border-radius: 1rem;
   box-shadow: var(--shadow);
@@ -137,7 +137,7 @@ section > h2::before {
   right: 12%;
   width: 19rem;
   aspect-ratio: 1;
-  border: 1px solid rgb(15 92 99 / 10%);
+  border: 1px solid rgb(96 71 184 / 12%);
   border-radius: 50%;
   content: "";
 }
@@ -190,8 +190,8 @@ section > h2::before {
   overflow: hidden;
   border: 0.3rem solid rgb(255 255 255 / 85%);
   border-radius: 50%;
-  background: linear-gradient(145deg, #0f5c63, #2d9290);
-  box-shadow: 0 1.25rem 3rem rgb(15 92 99 / 25%);
+  background: linear-gradient(145deg, #6047b8, #9276df);
+  box-shadow: 0 1.25rem 3rem rgb(96 71 184 / 25%);
   animation: photo-float 5s ease-in-out 800ms infinite;
 }
 
@@ -207,7 +207,7 @@ section > h2::before {
   position: absolute;
   width: 15rem;
   aspect-ratio: 1;
-  border: 1px solid rgb(15 92 99 / 20%);
+  border: 1px solid rgb(96 71 184 / 22%);
   border-radius: 50%;
 }
 
@@ -227,7 +227,7 @@ section > h2::before {
   border: 1px solid rgb(255 255 255 / 80%);
   border-radius: 999px;
   background: rgb(255 255 255 / 90%);
-  box-shadow: 0 0.5rem 1.5rem rgb(23 43 58 / 12%);
+  box-shadow: 0 0.5rem 1.5rem rgb(41 38 58 / 12%);
   color: var(--primary);
   font-size: 0.8rem;
   font-weight: bold;
@@ -259,7 +259,7 @@ section > h2::before {
 }
 
 .skills li {
-  border: 1px solid #c8e1e1;
+  border: 1px solid #ded5f7;
   font-weight: bold;
 }
 
@@ -278,14 +278,14 @@ section > h2::before {
   padding: 1.25rem;
   background: var(--surface);
   overflow-wrap: anywhere;
-  box-shadow: 0 0.25rem 1rem rgb(23 43 58 / 4%);
+  box-shadow: 0 0.25rem 1rem rgb(41 38 58 / 5%);
 }
 
 .card::before {
   position: absolute;
   inset: 0 0 auto;
   height: 0.25rem;
-  background: linear-gradient(90deg, var(--primary), #75c4b8);
+  background: linear-gradient(90deg, var(--primary), #c1aef5);
   content: "";
   transform: scaleX(0.35);
   transform-origin: left;
@@ -393,7 +393,7 @@ label {
 input,
 textarea {
   display: block;
-  border: 1px solid #64748b;
+  border: 1px solid #aaa4b9;
   border-radius: .4rem;
   background: var(--surface);
   color: var(--text);
@@ -471,7 +471,7 @@ textarea:focus-visible {
   /* 3.3 */
   transform: translateY(-0.25rem);
   box-shadow: var(--shadow);
-  border-color: #9abfc0;
+  border-color: #b7a8e7;
 }
 
 .card:hover::before {
@@ -621,11 +621,11 @@ main > p {
   0%,
   100% {
     transform: translateY(0);
-    box-shadow: 0 1.25rem 3rem rgb(15 92 99 / 25%);
+    box-shadow: 0 1.25rem 3rem rgb(96 71 184 / 25%);
   }
 
   50% {
     transform: translateY(-0.45rem);
-    box-shadow: 0 1.75rem 3.25rem rgb(15 92 99 / 20%);
+    box-shadow: 0 1.75rem 3.25rem rgb(96 71 184 / 22%);
   }
 }

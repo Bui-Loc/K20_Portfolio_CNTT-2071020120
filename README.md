@@ -1,3 +1,9 @@
+## Liên kết
+
+- **Tác giả:** Bùi Văn Lộc
+- **Hồ sơ GitHub:** https://github.com/Bui-Loc
+- **Trang GitHub Pages:** https://bui-loc.github.io/K20_Portfolio_CNTT-2071020120/
+
 # K20_Portfolio_CNTT-2071020120
 Trang portfolio cá nhân giới thiệu tác giả, kỹ năng, dự án, quá trình học tập
 và thông tin liên hệ. Sản phẩm là website tĩnh được xây dựng bằng HTML và CSS.
@@ -42,10 +48,6 @@ K20_Portfolio_CNTT-2071020120/
 
 > Form chỉ minh họa xác thực phía trình duyệt: không gửi email, không lưu dữ liệu và không có xử lý phía máy chủ. Chỉ dùng dữ liệu giả khi thử nghiệm.
 
-## Liên kết
 
-- **Tác giả:** Bùi Văn Lộc
-- **Hồ sơ GitHub:** https://github.com/Bui-Loc
-- **Trang GitHub Pages:** https://bui-loc.github.io/K20_Portfolio_CNTT-2071020120/
 
 

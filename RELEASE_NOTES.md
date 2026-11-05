@@ -14,3 +14,5 @@ v3 — 04/11/2026
 - **Lỗi đã sửa:** đổi đường dẫn CSS trang kết quả sang `style.css`
 - **Commit liên quan:** chưa có commit trong kho Git nên chưa có mã hash
 - **Hạn chế:** form chỉ kiểm tra dữ liệu trên trình duyệt,dùng GET nên dữ liệu xuất hiện trên URL,không gửi email hoặc lưu dữ liệu; trang chính chưa kiểm tra trực quan được trong trình duyệt tích hợp
+v4 - 11/5/2026
+đổi màu các nút và một số vùng trong web
